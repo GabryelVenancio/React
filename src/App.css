@@ -1,0 +1,29 @@
+#root {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.conteudoLateralEsquerda,
+.conteudoLateralDireita,
+.conteudoCentral {
+display: flex;
+min-height: 100vh;
+flex-direction: column;
+width: 30vw;
+}
+
+.conteudoLateralDireita {
+background: blue;
+width: 20vw;
+}
+
+.conteudoLateralEsquerda {
+  background: red;
+  width: 20vw;
+  }
+
+.conteudoCentral {
+background: yellow;
+width: 15vw;
+}

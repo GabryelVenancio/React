@@ -1,3 +1,7 @@
+body {
+  background: #fafafa;
+}
+
 #root {
   display: flex;
   flex-direction: row;
@@ -10,7 +14,6 @@
 display: flex;
 min-height: 100vh;
 flex-direction: column;
-width: 30vw;
 }
 
 .conteudoLateralDireita {
@@ -19,11 +22,12 @@ width: 20vw;
 }
 
 .conteudoLateralEsquerda {
+  display: flex;
   background: red;
   width: 20vw;
   }
 
 .conteudoCentral {
 background: yellow;
-width: 15vw;
+width: 65vw;
 }

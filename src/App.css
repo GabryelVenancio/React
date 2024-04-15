@@ -8,26 +8,28 @@ body {
   height: 100vh;
 }
 
-.conteudoLateralEsquerda,
 .conteudoLateralDireita,
+.conteudoLateralEsquerda,
 .conteudoCentral {
-display: flex;
-min-height: 100vh;
-flex-direction: column;
-}
-
-.conteudoLateralDireita {
-background: blue;
-width: 20vw;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .conteudoLateralEsquerda {
   display: flex;
-  background: red;
-  width: 20vw;
-  }
+  width:17vw;
+  background: white;
+  line-height: 20px;
+}
+
+.conteudoLateralDireita {
+  background: blue;
+  width:20vw;
+}
 
 .conteudoCentral {
-background: yellow;
-width: 65vw;
+  width:65vw;
+  background: #fafafa;
 }
+

@@ -1,33 +1,27 @@
-import logo from './Image/logo.png'
+import logo from './logo.svg';
 import './App.css';
-import ConteudoLateralEsquerda from './ConteudoLateralEsquerda';
+import Esquerda from './ConteudoLateralEsquerda';
+import Centro from './Components/Centro/ConteudoCentro';
+// JSX 
 
 function App() {
   return (
     <>
-    <ConteudoLateralEsquerda />
-    <div className="conteudoLateralEsquerda">
-      {/* logo do instragram
-          menu lateral 
-      */}
-    </div>
-    <div className="conteudoCentral">
-      {/* Stories
-          Feed de post
-          Links
-      */}
-    </div>
-    <div className="conteudoLateralDireita">
-      {/* 
+      <Esquerda />
+      <Centro />
+      
+      
+      <div className='conteudoLateralDireita'>
+        {/* 
           Login
           Sugestões de amigos
           Sugestões de contas
           Sugestões de hashtags
           Sugestões de locais
-          Sugestões post patrocinados
-          
-      */}
-    </div>
+          Sugestões de posts patrocinados
+          Link legais
+        */}
+      </div>
     </>
   );
 }
